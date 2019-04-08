@@ -1,5 +1,5 @@
 # README
-...or don't readme. It's your choice! 
+...or don't readme. It's your choice!
 
 ## ACTIVITY LOG
 
@@ -10,3 +10,7 @@
 
 ## NEXT STEPS
 * Review https://www.ruby-lang.org/en/documentation/quickstart/
+
+## OTHER STUFF
+### GIT
+* https://kbroman.org/github_tutorial/pages/init.html
