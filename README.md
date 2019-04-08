@@ -14,3 +14,7 @@
 ## OTHER STUFF
 ### GIT
 * https://kbroman.org/github_tutorial/pages/init.html
+
+
+## DO NOT READ THIS SECTION
+* you didn't listen
