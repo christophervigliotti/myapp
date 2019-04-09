@@ -21,123 +21,123 @@
 Class @ 4pm
 
 #### Class Notes
-Course Overview 
-	first 4 weeks > learn ruby (vs rails) language, methods, classes
-	weeks 5-10 rails framework
-	weeks 10-15 personal rails projects
-	week 16 - present personal project to ec mgmt
-	week 17-23 customer drf
-	week 24 - present to customer mgmt
-You must put in the time > homework
-ask lots of questions
-read the docs
-ruby is an open source language focused on simplicity and productivity
-everything is an object (and as such has methods and properties)
-docs at http://www.ruby-lang.org/en/
-stack overflow is a thing
-ruby is o-o
-a hash is a key/value pair
-=> is called a "hash rocket"
-is ruby case sensitive? yes
-if else
-	if condition a
-		#do something
-	elsif condition b
-		#do something else
-	else
-		#do this thing
-	end
-
-one-liner
-	condition ? true : false
-	rand(100).even? ? puts "it's even" : "it's odd" 
-	^ syntax error lol
-case statements
-	case capacity
-		when 0
-			'you ran out of gas'
-		when 1..20
-			'tank almost empty'
-		...
-iterators
-	users = ['User1','User2']
-	users.each do |user|
-		user.downcase
-	end
-
-	users.each_with_index do |index, user|
-		...
-operators
-	% 	modulus
-	** 	exponent
-	<=>	???	
-	...
-variables
-	globals
-		$global_variable = 10 (not recommended)
-	instance
-		class Customer
-			def i_am_a_method
-				@customer_id = 1
-			end
-			def i_can_access_instance_vars
-				puts @cust_id
-			end
+	Course Overview 
+		first 4 weeks > learn ruby (vs rails) language, methods, classes
+		weeks 5-10 rails framework
+		weeks 10-15 personal rails projects
+		week 16 - present personal project to ec mgmt
+		week 17-23 customer drf
+		week 24 - present to customer mgmt
+	You must put in the time > homework
+	ask lots of questions
+	read the docs
+	ruby is an open source language focused on simplicity and productivity
+	everything is an object (and as such has methods and properties)
+	docs at http://www.ruby-lang.org/en/
+	stack overflow is a thing
+	ruby is o-o
+	a hash is a key/value pair
+	=> is called a "hash rocket"
+	is ruby case sensitive? yes
+	if else
+		if condition a
+			#do something
+		elsif condition b
+			#do something else
+		else
+			#do this thing
 		end
-	class variables
-		similar to global
-		class Customer
-			@@ i_am_a_class_variable
-			def a_method
-			end
+
+	one-liner
+		condition ? true : false
+		rand(100).even? ? puts "it's even" : "it's odd" 
+		^ syntax error lol
+	case statements
+		case capacity
+			when 0
+				'you ran out of gas'
+			when 1..20
+				'tank almost empty'
 			...
-	constant variables
-		class Example
-			VAR1 = 100
-			VAR2 = 100
-?? question: properties are stored using which variable type from above?
-	answer: 
-	follow-up question: how do you define get/set methods?
-methods
-	def method_name_1
-		#do something
-	end
-	def method_name_2 (var1, var2)
-		#do something
-	end
-	def method_name_3 (var1 = 'default value')
-		#do something
-	end
-classes and methods
-	class Customer
-		def self.welcome_message
-			"hi from the class method"
-			# called via Customer.welcome_message
+	iterators
+		users = ['User1','User2']
+		users.each do |user|
+			user.downcase
 		end
-		def welcome_message
-			"hello from the instance message"
-			# called via... 
-			# customer = Customer.new
-			# customer.welcome_message
+
+		users.each_with_index do |index, user|
+			...
+	operators
+		% 	modulus
+		** 	exponent
+		<=>	???	
+		...
+	variables
+		globals
+			$global_variable = 10 (not recommended)
+		instance
+			class Customer
+				def i_am_a_method
+					@customer_id = 1
+				end
+				def i_can_access_instance_vars
+					puts @cust_id
+				end
+			end
+		class variables
+			similar to global
+			class Customer
+				@@ i_am_a_class_variable
+				def a_method
+				end
+				...
+		constant variables
+			class Example
+				VAR1 = 100
+				VAR2 = 100
+	?? question: properties are stored using which variable type from above?
+		answer: 
+		follow-up question: how do you define get/set methods?
+	methods
+		def method_name_1
+			#do something
 		end
-	end
-exercism
-	is an online platform designed to help you improve your coding skills through practice and mentorship
-	url: https://exercism.io/tracks/ruby	
-homework
-	4 easy level exercises? exercisms?
-?? questions
-	what is a mixin
-		answer: 
-	what is a block
-		answer: 
-	which 4 are our homework
-		answer: any four "easy"
-	where are slides available to review
-		answer: 
-	waht does 'skip' do in a test
-		answer: it skips the test 
-testing and ruby go hand-in-hand
+		def method_name_2 (var1, var2)
+			#do something
+		end
+		def method_name_3 (var1 = 'default value')
+			#do something
+		end
+	classes and methods
+		class Customer
+			def self.welcome_message
+				"hi from the class method"
+				# called via Customer.welcome_message
+			end
+			def welcome_message
+				"hello from the instance message"
+				# called via... 
+				# customer = Customer.new
+				# customer.welcome_message
+			end
+		end
+	exercism
+		is an online platform designed to help you improve your coding skills through practice and mentorship
+		url: https://exercism.io/tracks/ruby	
+	homework
+		4 easy level exercises? exercisms?
+	?? questions
+		what is a mixin
+			answer: 
+		what is a block
+			answer: 
+		which 4 are our homework
+			answer: any four "easy"
+		where are slides available to review
+			answer: 
+		waht does 'skip' do in a test
+			answer: it skips the test 
+	testing and ruby go hand-in-hand
 
 ### Tuesday, April 9
 Made it three pages into https://www.ruby-lang.org/en/documentation/quickstart/ 
