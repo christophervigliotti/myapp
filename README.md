@@ -1,6 +1,16 @@
 # README
 ...or don't readme. It's your choice!
 
+## TOC
+
+* UPCOMING
+	what to focus on next
+* ACTIVITY LOG 
+	reverse chron notes
+	includes my Rails environment setup notes
+* MISCELLANEOUS
+	rando
+
 ## UPCOMING
 * Do the homework
 * Next class is Tuesday @ 4pm
@@ -11,7 +21,7 @@
 Class @ 4pm
 
 #### Class Notes
-Course Overview
+Course Overview 
 	first 4 weeks > learn ruby (vs rails) language, methods, classes
 	weeks 5-10 rails framework
 	weeks 10-15 personal rails projects
@@ -122,9 +132,11 @@ homework
 	what is a block
 		answer: 
 	which 4 are our homework
-		answer: 
+		answer: any four "easy"
 	where are slides available to review
 		answer: 
+	waht does 'skip' do in a test
+		answer: it skips the test 
 testing and ruby go hand-in-hand
 
 ### Tuesday, April 9
@@ -136,6 +148,7 @@ Made it three pages into https://www.ruby-lang.org/en/documentation/quickstart/
 3. Installed Ruby On Rails using these instructions https://gorails.com/setup/ubuntu/18.10 
 
 #### Rails Install Notes
+(see section 'Monday April 8' above for an overview of what I did)
 * when using the gorails instructions, copy and paste each line and watch carefully for errors.  resolve them before you go onto copying and pasting the next line
 * install locked up on rbenv, so I went with the rvm instructions
 * don't remember how I resolved the "you must use bundler 2 or greater with this lockfile" issue (when creating myapp)
@@ -154,6 +167,6 @@ Made it three pages into https://www.ruby-lang.org/en/documentation/quickstart/
 			touch a_file.rb
 			(creates empty file a_file.rb)
 
-## Do Not Read This Section
+### Do Not Read This Section
 * you didn't listen
 
