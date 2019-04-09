@@ -15,6 +15,11 @@
 ### GIT
 * https://kbroman.org/github_tutorial/pages/init.html
 
+### RAILS INSTALL NOTES
+* install locked up on rbenv, so I went with the rvm instructions
+* don't remember how I resolved the "you must use bundler 2 or greater with this lockfile" issue (when creating myapp)
+* created app using command rails new myapp -d postgresql
 
 ## DO NOT READ THIS SECTION
 * you didn't listen
+
