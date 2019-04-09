@@ -3,9 +3,15 @@
 
 ## ACTIVITY LOG
 
-### Monday April 8th, 2019
+### Wednesday, April 10
+1. Class @ 4pm
+
+### Tuesday, April 9
+1. Made it three pages into https://www.ruby-lang.org/en/documentation/quickstart/ 
+
+### Monday April 8
 1. Installed VirtualBox
-2. Created an Ubuntu 18.10 VirtualBox Appliance
+2. Created an Ubuntu 18.10 VirtualBox Appliance (see :Rails Install Notes section below)
 3. Installed Ruby On Rails using these instructions https://gorails.com/setup/ubuntu/18.10 
 
 ## NEXT STEPS
